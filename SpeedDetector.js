@@ -1,13 +1,24 @@
 function CheckSpeed(speed){
+
+    // When speed is less than Seventy
     if (speed < 70){
         console.log("Ok")
     }
+
+    // calculations when speed is more than Seventy
+
     else if (speed > 70){
-      let demerit = speed - 70
-      console.log(demerit)
-    // for every 5km add 2 points
-    // if points more than 12 points return license removed
-    }
+      let speedOverSeventy = speed - 70
+      
+      let demeritpoints = speedOverSeventy/5
+      console.log(`Points: ${demeritpoints}`)
+
+   // demerit points if its more than 12 points
+     if (demeritpoints > 12){
+        console.log("License suspended")
+     }
+  }
 }
 
-CheckSpeed(80)
+// Enter speed
+CheckSpeed(70)
