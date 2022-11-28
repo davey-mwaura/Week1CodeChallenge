@@ -20,5 +20,5 @@ function calculateTax(salary,NHIFavailable,NSSFavailable){
    }
 }
 
-//Salary, type in "yes" if NHIF deduction available, type in "yes" if NSSF deduction available
+//Salary, type in "yes" if NHIF deduction available, type in "yes" if NSSF deduction Available
 calculateTax(840000,"yes","yes")

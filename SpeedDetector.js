@@ -20,5 +20,5 @@ function CheckSpeed(speed){
   }
 }
 
-// Enter speed
+// Enter Speed
 CheckSpeed(70)

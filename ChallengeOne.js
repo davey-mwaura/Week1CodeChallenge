@@ -29,5 +29,5 @@ else if(marks < 40){
 
 }
 
-// Enter marks to get Grade
+// Enter marks to get Grade.
 CheckGrade(79)
